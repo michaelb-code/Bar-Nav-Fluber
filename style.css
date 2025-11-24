@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", "sans-serif" ;
+    font-family: "Poppins", "sans-serif";
 
 }
 
@@ -12,9 +12,9 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background:linear-gradient(45deg, #151515,#9add82)
-
+    background: linear-gradient(45deg, #151515, #9add82)
 }
+
 nav {
     position: relative;
     width: 480px;
@@ -28,17 +28,18 @@ nav {
 
 nav a {
     position: relative;
-    display:inline-block;
+    display: inline-block;
     font-size: 1em;
     font-weight: 500;
-    color:white;
+    color: white;
     text-decoration: none;
     padding: 0 23px;
     z-index: 1;
 
 }
+
 nav a:hover {
-    transform: scale(1.5);
+    transform: scale(1.3);
     transition: 1.2s;
 }
 
@@ -48,32 +49,32 @@ nav span {
     left: 0;
     width: 95px;
     height: 100%;
-    background: linear-gradient(45deg, #366c35,#51fa13);
-    border-radius :8px;
+    background: linear-gradient(45deg, #366c35, #51fa13);
+    border-radius: 8px;
     transition: 0.8s;
 
 }
 
-nav a:nth-child(1):hover~span{
+nav a:nth-child(1):hover~span {
     left: 0px;
-    
+
 }
 
-nav a:nth-child(2):hover~span{
-    left:90px;
+nav a:nth-child(2):hover~span {
+    left: 90px;
 }
 
-nav a:nth-child(3):hover~span{
-    left:180px;
-    width:100px;
+nav a:nth-child(3):hover~span {
+    left: 180px;
+    width: 100px;
 }
 
-nav a:nth-child(4):hover~span{
-    left:280px;
-    width:100px;
+nav a:nth-child(4):hover~span {
+    left: 280px;
+    width: 100px;
 }
 
-nav a:nth-child(5):hover~span{
-    left:380px;
-    width:100px;
+nav a:nth-child(5):hover~span {
+    left: 380px;
+    width: 100px;
 }
